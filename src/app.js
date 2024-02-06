@@ -9,7 +9,7 @@ import "./app.css"
 
 import {PageContainer,Container,Input,Form,HeadingText,SelectOptions,IconsContainer,FontSizeCard,FontSizeText,Button,
     InputColor,FontSizeAndInputCard,ColorCard,HeadingText1,AddText,Option,AddedText} from "./styledComponent"
-
+//font-family-list
 const fontFamilies = [
     {
       name: "Arial",
