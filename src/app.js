@@ -1,7 +1,6 @@
 import {Component} from "react"
-import { IoMdArrowDropup } from "react-icons/io";
-import { IoIosArrowUp } from "react-icons/io";
-import { IoIosArrowDown } from "react-icons/io";
+import {IoIosArrowUp, IoIosArrowDown} from 'react-icons/io'
+
 
 
 import "./app.css"
@@ -47,7 +46,7 @@ class App extends Component {
 
     state = {fontStyle:fontFamilies[0].name,fontSize :20,fontcolor : "#000000",bgColor:"#ffffff",isadded:false,inputText:""}
     
-    onChangeInputText = () => {
+    onChangeInputText = (event) => {
         this.setState({inputText:event.target.value})
     }
 
